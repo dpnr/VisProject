@@ -1,0 +1,181 @@
+.countries {
+    stroke: #f7f7f7;
+    fill: #2b8cbe;
+}
+
+.silver {
+    fill: #d9d9d9;
+    opacity: .8;
+    stroke: #252525;
+    stroke-width: 1px;
+}
+
+.selected {
+    fill: #df7e7b;
+    opacity: .8;
+    stroke: #252525;
+    stroke-width: 1px;
+}
+
+.clicked {
+    fill: #696969;
+    opacity: .8;
+    stroke: #252525;
+    stroke-width: 1px;
+}
+
+.highlighted {
+    fill: #696969;
+    opacity: .8;
+    stroke: #252525;
+    stroke-width: 1px;
+}
+
+input {
+    font-weight: bold;
+}
+
+text {
+    font-weight: bold;
+}
+
+.tooltip {
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    pointer-events: none;
+    line-height: 1;
+    font-weight: bold;
+    padding: 12px;
+    background: #ba55d3;
+    color: #fff;
+    border-radius: 2px;
+}
+
+span {
+    padding: 1em;
+}
+
+body {
+    font-family: Lato;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: "Arvo";
+    font-size:35px;
+    color: #464646;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 20px;
+}
+.info{
+    margin-left: 20px;
+}
+.tile {
+    stroke: #FFF;
+    stroke-width: 4;
+}
+
+
+.Axis{
+    stroke: #eee;
+    stroke-width: 4;
+}
+.content {
+    display: inline-block;
+    width: 70%;
+}
+
+.sideBar {
+    display: inline-block;
+    width: 30%;
+    float:right;
+}
+
+
+.middlePoint{
+    stroke: #eee;
+}
+
+.fullView{
+    display: inline-block;
+    width: 100%;
+}
+
+
+
+.highlighted{
+    stroke: #404040;;
+    stroke-width:4;
+}
+
+
+
+.selected{
+    stroke: #404040;;
+    stroke-width:4;
+    r:15px;
+}
+
+
+h2{
+    -webkit-margin-before: 5px;
+    -webkit-margin-after:  5px;
+}
+.d3-tip {
+    /*line-height: 5;*/
+    padding-left: 10px;
+    padding-right: 10px;
+    min-width: 400px;
+    border-style: groove;
+    /*padding: 12px;*/
+    background: #FFFFFF;
+    color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    pointer-events: none;
+}
+.tooltip-title{
+    font-size:18px;
+    font-family: "Arial Black";
+
+}
+
+
+h3{
+    text-anchor:middle;
+    font-size: 32px;
+}
+
+
+    svg {
+        font: 10px sans-serif;
+    }
+
+    .background path {
+        fill: none;
+        stroke: #ddd;
+        shape-rendering: crispEdges;
+    }
+
+    .foreground path {
+        fill: none;
+        stroke: black;
+    }
+
+    .brush .extent {
+        fill-opacity: .3;
+        stroke: #fff;
+        shape-rendering: crispEdges;
+    }
+
+    .axis line,
+    .axis path {
+        fill: none;
+        stroke: #000;
+        shape-rendering: crispEdges;
+    }
+
+    .axis text {
+        text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
+        cursor: move;
+    }

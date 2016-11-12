@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:margin-top="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Data Science - Grad School Finder</title>
+    <link rel="stylesheet" href="public/css/style.css"/>
+    <script src="https://d3js.org/d3.v3.js"></script>
+    <!--<script type="application/javascript" src="d3.parcoords.js"></script>
+    <!--<script src="https://d3js.org/d3.v4.min.js"></script>-->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.9.0/d3-legend.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.19/topojson.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.19/topojson.min.js"></script>
+    <script src="https://d3js.org/d3-array.v1.min.js"></script>
+    <script src="https://d3js.org/d3-geo.v1.min.js"></script>
+</head>
+
+<body>
+
+<h1>DATA SCIENCE - GRAD SCHOOL FINDER</h1>
+<p class="info">Find the best grad school to get your Data Science degree in!</p>
+
+<h3>Filters:</h3>
+<span>
+    <label>Grad Program Type:</label>
+    <select id="programType">
+        <option selected value="M">Master's</option>
+        <option value="C">Certificate</option>
+    </select>
+</span>
+
+<span>
+    <label>World Rank of Program:</label>
+    <select id="worldRank">
+        <option selected value="1-50">1 - 50</option>
+        <option value="51-100">51 - 100</option>
+        <option value="101-150">101 - 150</option>
+        <option value="151-200">151 - 200</option>
+        <option value="201-300">201 - 300</option>
+        <option value="301-400">301 - 400</option>
+        <option value="401-800">Above 400</option>
+    </select>
+</span>
+
+<span>
+    <label>Prerequisites:</label>
+    <select id="prereq">
+        <option selected value="yes">Yes</option>
+        <option value="no">No</option>
+        <option value="any">Doesn't Matter</option>
+    </select>
+</span>
+
+<span>
+    <button onclick="FilterChart.prototype.getFilterValues()" type="button">Find Schools!</button>
+</span>
+
+<br>
+<br>
+
+<div id = "University-list" class = "view">
+    <h3>University List</h3>
+    <table id="matchTable">
+        <thead>
+        <tr>
+            <th style="text-align:center">University Name</th>
+            <td style="text-align:center" > Department <span class="glyphicon glyphicon-sort"></span><br/></td>
+            <td style="text-align:center"> Duration </td>
+            <td id="win" style="text-align:center">Type</td>
+            <td style="text-align:center">Compare</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td id="goalHeader"></td>
+        </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+</div>
+
+<br>
+<br>
+<div id="test" class="parcoords1" style="width:1020px;height:500px">
+    <h4>Parallel Axes</h4>
+<svg id="clear"  width="960" height="500">
+
+<g id="paxes" transform="translate(10,30)"></g>
+
+</svg>
+
+
+</div>
+
+<br>
+<br>
+<br>
+<div id = "map1"  margin-top="60px" >
+    <h4>Map Locator</h4>
+    <h5>Click on a school to explore!</h5>
+    <span>
+    <input id="check" onchange="MapChart.prototype.compareSchools(this)" type="checkbox" value="yes"><b>Select two schools to compare.</b></input>
+    </span>
+    <span>
+        <button onclick="MapChart.prototype.clearSelections()" type="button">Reset</button>
+    </span>
+    <br>
+    <br>
+
+    <svg width="1200" height="70">
+        <circle class="clicked" cx="20" cy="25" r="12"></circle>
+        <text x="40" y="30">SCHOOL SELECTED TO EXPLORE</text>
+        <circle class="silver" cx="355" cy="25" r="12"></circle>
+        <text x="375" y="30">UNSELECTED SCHOOLS</text>
+        <circle class="selected" cx="640" cy="25" r="12"></circle>
+        <text x="660" y="30">SCHOOLS SELECTED TO COMPARE</text>
+    </svg>
+
+    <svg width="900" height="700" >
+        <g id="map" width= "900" height="700"></g>
+        <g id="points"></g>
+    </svg>
+</div>
+
+<br>
+<br>
+<div id = "comparator" class = "view1">
+    <h2>Comparator</h2>
+    <span id="left"></span>
+	<svg id="leftside" width="200" height="200" >
+    <span id="right"></span>
+	<svg id="rightside" width="200" height="200" >
+    <!-- <svg width="700" height="900"> -->
+</div>
+
+
+<script type="text/javascript" src="bower_components/d3/d3.js"></script>
+<script type="text/javascript" src="bower_components/d3-tip/index.js"></script>
+<script type="application/javascript" src="public/js/filterChart.js"></script>
+<script type="application/javascript" src="public/js/listChart.js"></script>
+<script type="application/javascript" src="public/js/mapChart.js"></script>
+<script type="application/javascript" src="public/js/comparatorChart.js"></script>
+<script type="application/javascript" src="public/js/parallel.js"></script>
+<script type="application/javascript" src="public/js/main.js">
+
+</script>
+</body>
+</html>
