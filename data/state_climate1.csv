@@ -1,0 +1,613 @@
+dt,AverageTemperature,AverageTemperatureUncertainty,State,Country,Month,ID
+1/1/2012,10.29,0.303,Alabama,United States,Jan,1
+2/1/2012,11.405,0.201,Alabama,United States,Feb,1
+3/1/2012,18.401,0.124,Alabama,United States,Mar,1
+4/1/2012,18.675,0.265,Alabama,United States,Apr,1
+5/1/2012,23.512,0.225,Alabama,United States,May,1
+6/1/2012,25.454,0.326,Alabama,United States,Jun,1
+7/1/2012,28.119,0.326,Alabama,United States,Jul,1
+8/1/2012,26.275,0.339,Alabama,United States,Aug,1
+9/1/2012,23.422,0.275,Alabama,United States,Sep,1
+10/1/2012,17.228,0.22,Alabama,United States,Oct,1
+11/1/2012,11.216,0.134,Alabama,United States,Nov,1
+12/1/2012,10.822,0.256,Alabama,United States,Dec,1
+1/1/2012,-27.039,0.44,Alaska,United States,Jan,2
+2/1/2012,-13.484,0.341,Alaska,United States,Feb,2
+3/1/2012,-17.382,0.311,Alaska,United States,Mar,2
+4/1/2012,-3.599,0.394,Alaska,United States,Apr,2
+5/1/2012,2.641,0.299,Alaska,United States,May,2
+6/1/2012,10.354,0.415,Alaska,United States,Jun,2
+7/1/2012,11.426,0.45,Alaska,United States,Jul,2
+8/1/2012,10.058,0.5,Alaska,United States,Aug,2
+9/1/2012,4.521,0.36,Alaska,United States,Sep,2
+10/1/2012,-4.359,0.348,Alaska,United States,Oct,2
+11/1/2012,-16.039,0.466,Alaska,United States,Nov,2
+12/1/2012,-20.466,0.445,Alaska,United States,Dec,2
+1/1/2012,7.039,0.26,Arizona,United States,Jan,4
+2/1/2012,7.446,0.221,Arizona,United States,Feb,4
+3/1/2012,11.019,0.15,Arizona,United States,Mar,4
+4/1/2012,15.909,0.282,Arizona,United States,Apr,4
+5/1/2012,20.979,0.216,Arizona,United States,May,4
+6/1/2012,26.23,0.321,Arizona,United States,Jun,4
+7/1/2012,26.91,0.305,Arizona,United States,Jul,4
+8/1/2012,27.21,0.221,Arizona,United States,Aug,4
+9/1/2012,23.365,0.211,Arizona,United States,Sep,4
+10/1/2012,17.541,0.236,Arizona,United States,Oct,4
+11/1/2012,11.983,0.192,Arizona,United States,Nov,4
+12/1/2012,5.398,0.383,Arizona,United States,Dec,4
+1/1/2012,7.115,0.257,Arkansas,United States,Jan,5
+2/1/2012,8.533,0.201,Arkansas,United States,Feb,5
+3/1/2012,17.128,0.142,Arkansas,United States,Mar,5
+4/1/2012,18.078,0.264,Arkansas,United States,Apr,5
+5/1/2012,23.281,0.174,Arkansas,United States,May,5
+6/1/2012,25.911,0.245,Arkansas,United States,Jun,5
+7/1/2012,29.407,0.251,Arkansas,United States,Jul,5
+8/1/2012,27.195,0.264,Arkansas,United States,Aug,5
+9/1/2012,23.314,0.241,Arkansas,United States,Sep,5
+10/1/2012,15.412,0.263,Arkansas,United States,Oct,5
+11/1/2012,10.386,0.169,Arkansas,United States,Nov,5
+12/1/2012,8.152,0.299,Arkansas,United States,Dec,5
+1/1/2012,7.981,0.264,California,United States,Jan,6
+2/1/2012,8.224,0.206,California,United States,Feb,6
+3/1/2012,9.758,0.168,California,United States,Mar,6
+4/1/2012,13.483,0.315,California,United States,Apr,6
+5/1/2012,17.957,0.216,California,United States,May,6
+6/1/2012,20.792,0.28,California,United States,Jun,6
+7/1/2012,23.765,0.359,California,United States,Jul,6
+8/1/2012,25.407,0.23,California,United States,Aug,6
+9/1/2012,22.76,0.211,California,United States,Sep,6
+10/1/2012,16.638,0.28,California,United States,Oct,6
+11/1/2012,11.475,0.237,California,United States,Nov,6
+12/1/2012,6.062,0.323,California,United States,Dec,6
+1/1/2012,-1.882,0.276,Colorado,United States,Jan,8
+2/1/2012,-2.874,0.252,Colorado,United States,Feb,8
+3/1/2012,5.529,0.15,Colorado,United States,Mar,8
+4/1/2012,8.916,0.252,Colorado,United States,Apr,8
+5/1/2012,13.15,0.156,Colorado,United States,May,8
+6/1/2012,20.094,0.221,Colorado,United States,Jun,8
+7/1/2012,21.644,0.285,Colorado,United States,Jul,8
+8/1/2012,20.01,0.262,Colorado,United States,Aug,8
+9/1/2012,15.339,0.171,Colorado,United States,Sep,8
+10/1/2012,7.849,0.208,Colorado,United States,Oct,8
+11/1/2012,3.931,0.219,Colorado,United States,Nov,8
+12/1/2012,-3.802,0.335,Colorado,United States,Dec,8
+1/1/2012,0.66,0.379,Connecticut,United States,Jan,9
+2/1/2012,2.162,0.22,Connecticut,United States,Feb,9
+3/1/2012,7.34,0.203,Connecticut,United States,Mar,9
+4/1/2012,9.724,0.316,Connecticut,United States,Apr,9
+5/1/2012,15.991,0.258,Connecticut,United States,May,9
+6/1/2012,18.924,0.384,Connecticut,United States,Jun,9
+7/1/2012,23.287,0.397,Connecticut,United States,Jul,9
+8/1/2012,22.427,0.4,Connecticut,United States,Aug,9
+9/1/2012,17.791,0.298,Connecticut,United States,Sep,9
+10/1/2012,13.029,0.378,Connecticut,United States,Oct,9
+11/1/2012,5.073,0.229,Connecticut,United States,Nov,9
+12/1/2012,3.193,0.33,Connecticut,United States,Dec,9
+1/1/2012,3.578,0.44,Delaware,United States,Jan,10
+2/1/2012,4.837,0.335,Delaware,United States,Feb,10
+3/1/2012,10.412,0.177,Delaware,United States,Mar,10
+4/1/2012,12.161,0.23,Delaware,United States,Apr,10
+5/1/2012,18.742,0.208,Delaware,United States,May,10
+6/1/2012,21.547,0.395,Delaware,United States,Jun,10
+7/1/2012,26.137,0.317,Delaware,United States,Jul,10
+8/1/2012,24.434,0.338,Delaware,United States,Aug,10
+9/1/2012,20.149,0.348,Delaware,United States,Sep,10
+10/1/2012,14.62,0.319,Delaware,United States,Oct,10
+11/1/2012,6.265,0.354,Delaware,United States,Nov,10
+12/1/2012,6.2,0.331,Delaware,United States,Dec,10
+1/1/2012,2.382,0.383,District Of Columbia,United States,Jan,11
+2/1/2012,4.503,0.19,District Of Columbia,United States,Feb,11
+3/1/2012,11.47,0.194,District Of Columbia,United States,Mar,11
+4/1/2012,12.158,0.324,District Of Columbia,United States,Apr,11
+5/1/2012,20.116,0.224,District Of Columbia,United States,May,11
+6/1/2012,22.173,0.449,District Of Columbia,United States,Jun,11
+7/1/2012,26.629,0.504,District Of Columbia,United States,Jul,11
+8/1/2012,24.621,0.392,District Of Columbia,United States,Aug,11
+9/1/2012,19.972,0.247,District Of Columbia,United States,Sep,11
+10/1/2012,13.607,0.329,District Of Columbia,United States,Oct,11
+11/1/2012,5.487,0.347,District Of Columbia,United States,Nov,11
+12/1/2012,4.841,0.357,District Of Columbia,United States,Dec,11
+1/1/2012,16.006,0.249,Florida,United States,Jan,12
+2/1/2012,18.432,0.126,Florida,United States,Feb,12
+3/1/2012,21.678,0.211,Florida,United States,Mar,12
+4/1/2012,22.084,0.283,Florida,United States,Apr,12
+5/1/2012,25.55,0.257,Florida,United States,May,12
+6/1/2012,26.598,0.309,Florida,United States,Jun,12
+7/1/2012,28.145,0.367,Florida,United States,Jul,12
+8/1/2012,27.884,0.303,Florida,United States,Aug,12
+9/1/2012,26.868,0.189,Florida,United States,Sep,12
+10/1/2012,23.548,0.263,Florida,United States,Oct,12
+11/1/2012,17.769,0.183,Florida,United States,Nov,12
+12/1/2012,17.608,0.271,Florida,United States,Dec,12
+1/1/2012,10.506,0.322,Georgia (State),United States,Jan,13
+2/1/2012,12.026,0.197,Georgia (State),United States,Feb,13
+3/1/2012,18.617,0.209,Georgia (State),United States,Mar,13
+4/1/2012,19.07,0.261,Georgia (State),United States,Apr,13
+5/1/2012,23.571,0.228,Georgia (State),United States,May,13
+6/1/2012,24.787,0.304,Georgia (State),United States,Jun,13
+7/1/2012,28.275,0.33,Georgia (State),United States,Jul,13
+8/1/2012,26.147,0.328,Georgia (State),United States,Aug,13
+9/1/2012,23.883,0.247,Georgia (State),United States,Sep,13
+10/1/2012,18.576,0.243,Georgia (State),United States,Oct,13
+11/1/2012,12.054,0.175,Georgia (State),United States,Nov,13
+12/1/2012,11.578,0.311,Georgia (State),United States,Dec,13
+1/1/2012,21.906,0.326,Hawaii,United States,Jan,15
+2/1/2012,21.247,0.257,Hawaii,United States,Feb,15
+3/1/2012,21.023,0.309,Hawaii,United States,Mar,15
+4/1/2012,21.316,0.399,Hawaii,United States,Apr,15
+5/1/2012,22.312,0.335,Hawaii,United States,May,15
+6/1/2012,23.139,0.35,Hawaii,United States,Jun,15
+7/1/2012,23.494,0.264,Hawaii,United States,Jul,15
+8/1/2012,24.07,0.356,Hawaii,United States,Aug,15
+9/1/2012,23.781,0.308,Hawaii,United States,Sep,15
+10/1/2012,24.095,0.297,Hawaii,United States,Oct,15
+11/1/2012,23.046,0.304,Hawaii,United States,Nov,15
+12/1/2012,22.396,0.285,Hawaii,United States,Dec,15
+1/1/2012,-3.683,0.348,Idaho,United States,Jan,16
+2/1/2012,-2.919,0.278,Idaho,United States,Feb,16
+3/1/2012,2.177,0.148,Idaho,United States,Mar,16
+4/1/2012,6.641,0.347,Idaho,United States,Apr,16
+5/1/2012,9.494,0.191,Idaho,United States,May,16
+6/1/2012,13.806,0.234,Idaho,United States,Jun,16
+7/1/2012,20.171,0.268,Idaho,United States,Jul,16
+8/1/2012,19.426,0.224,Idaho,United States,Aug,16
+9/1/2012,14.51,0.208,Idaho,United States,Sep,16
+10/1/2012,6.064,0.241,Idaho,United States,Oct,16
+11/1/2012,1.77,0.191,Idaho,United States,Nov,16
+12/1/2012,-3.987,0.344,Idaho,United States,Dec,16
+1/1/2012,0.139,0.36,Illinois,United States,Jan,17
+2/1/2012,2.265,0.226,Illinois,United States,Feb,17
+3/1/2012,13.193,0.191,Illinois,United States,Mar,17
+4/1/2012,12.668,0.27,Illinois,United States,Apr,17
+5/1/2012,20.436,0.258,Illinois,United States,May,17
+6/1/2012,22.973,0.28,Illinois,United States,Jun,17
+7/1/2012,28.156,0.393,Illinois,United States,Jul,17
+8/1/2012,23.681,0.304,Illinois,United States,Aug,17
+9/1/2012,18.746,0.212,Illinois,United States,Sep,17
+10/1/2012,11.67,0.221,Illinois,United States,Oct,17
+11/1/2012,5.502,0.241,Illinois,United States,Nov,17
+12/1/2012,2.856,0.292,Illinois,United States,Dec,17
+1/1/2012,0.432,0.315,Indiana,United States,Jan,18
+2/1/2012,2.155,0.205,Indiana,United States,Feb,18
+3/1/2012,12.959,0.196,Indiana,United States,Mar,18
+4/1/2012,11.998,0.291,Indiana,United States,Apr,18
+5/1/2012,20.445,0.275,Indiana,United States,May,18
+6/1/2012,22.725,0.299,Indiana,United States,Jun,18
+7/1/2012,27.461,0.387,Indiana,United States,Jul,18
+8/1/2012,22.969,0.34,Indiana,United States,Aug,18
+9/1/2012,18.531,0.228,Indiana,United States,Sep,18
+10/1/2012,11.527,0.238,Indiana,United States,Oct,18
+11/1/2012,5.014,0.185,Indiana,United States,Nov,18
+12/1/2012,3.617,0.325,Indiana,United States,Dec,18
+1/1/2012,-2.616,0.372,Iowa,United States,Jan,19
+2/1/2012,-0.975,0.242,Iowa,United States,Feb,19
+3/1/2012,11.277,0.167,Iowa,United States,Mar,19
+4/1/2012,11.723,0.331,Iowa,United States,Apr,19
+5/1/2012,19.045,0.253,Iowa,United States,May,19
+6/1/2012,22.684,0.349,Iowa,United States,Jun,19
+7/1/2012,27.277,0.33,Iowa,United States,Jul,19
+8/1/2012,22.611,0.33,Iowa,United States,Aug,19
+9/1/2012,17.511,0.243,Iowa,United States,Sep,19
+10/1/2012,9.782,0.222,Iowa,United States,Oct,19
+11/1/2012,4.507,0.132,Iowa,United States,Nov,19
+12/1/2012,-1.922,0.362,Iowa,United States,Dec,19
+1/1/2012,2.298,0.277,Kansas,United States,Jan,20
+2/1/2012,2.828,0.189,Kansas,United States,Feb,20
+3/1/2012,13.14,0.162,Kansas,United States,Mar,20
+4/1/2012,15.24,0.301,Kansas,United States,Apr,20
+5/1/2012,20.964,0.191,Kansas,United States,May,20
+6/1/2012,25.754,0.3,Kansas,United States,Jun,20
+7/1/2012,29.673,0.32,Kansas,United States,Jul,20
+8/1/2012,25.295,0.306,Kansas,United States,Aug,20
+9/1/2012,20.608,0.208,Kansas,United States,Sep,20
+10/1/2012,12.412,0.201,Kansas,United States,Oct,20
+11/1/2012,8.333,0.195,Kansas,United States,Nov,20
+12/1/2012,1.5,0.33,Kansas,United States,Dec,20
+1/1/2012,3.707,0.314,Kentucky,United States,Jan,21
+2/1/2012,5.177,0.256,Kentucky,United States,Feb,21
+3/1/2012,14.664,0.203,Kentucky,United States,Mar,21
+4/1/2012,14.239,0.329,Kentucky,United States,Apr,21
+5/1/2012,21.385,0.278,Kentucky,United States,May,21
+6/1/2012,23.133,0.283,Kentucky,United States,Jun,21
+7/1/2012,27.608,0.389,Kentucky,United States,Jul,21
+8/1/2012,24.201,0.324,Kentucky,United States,Aug,21
+9/1/2012,20.121,0.26,Kentucky,United States,Sep,21
+10/1/2012,13.171,0.324,Kentucky,United States,Oct,21
+11/1/2012,6.702,0.17,Kentucky,United States,Nov,21
+12/1/2012,6.223,0.252,Kentucky,United States,Dec,21
+1/1/2012,13.089,0.324,Louisiana,United States,Jan,22
+2/1/2012,13.638,0.232,Louisiana,United States,Feb,22
+3/1/2012,19.996,0.151,Louisiana,United States,Mar,22
+4/1/2012,21.034,0.248,Louisiana,United States,Apr,22
+5/1/2012,25.053,0.237,Louisiana,United States,May,22
+6/1/2012,27.344,0.238,Louisiana,United States,Jun,22
+7/1/2012,28.336,0.311,Louisiana,United States,Jul,22
+8/1/2012,28.155,0.277,Louisiana,United States,Aug,22
+9/1/2012,25.707,0.249,Louisiana,United States,Sep,22
+10/1/2012,19.303,0.258,Louisiana,United States,Oct,22
+11/1/2012,14.414,0.2,Louisiana,United States,Nov,22
+12/1/2012,13.125,0.354,Louisiana,United States,Dec,22
+1/1/2012,-7.368,0.505,Maine,United States,Jan,23
+2/1/2012,-5.786,0.3,Maine,United States,Feb,23
+3/1/2012,1.22,0.143,Maine,United States,Mar,23
+4/1/2012,5.542,0.297,Maine,United States,Apr,23
+5/1/2012,12.433,0.271,Maine,United States,May,23
+6/1/2012,15.958,0.362,Maine,United States,Jun,23
+7/1/2012,19.895,0.422,Maine,United States,Jul,23
+8/1/2012,19.895,0.318,Maine,United States,Aug,23
+9/1/2012,13.784,0.239,Maine,United States,Sep,23
+10/1/2012,9.104,0.265,Maine,United States,Oct,23
+11/1/2012,0.858,0.246,Maine,United States,Nov,23
+12/1/2012,-3.773,0.371,Maine,United States,Dec,23
+1/1/2012,3.263,0.354,Maryland,United States,Jan,24
+2/1/2012,4.931,0.168,Maryland,United States,Feb,24
+3/1/2012,11.557,0.146,Maryland,United States,Mar,24
+4/1/2012,12.239,0.294,Maryland,United States,Apr,24
+5/1/2012,19.729,0.21,Maryland,United States,May,24
+6/1/2012,21.862,0.357,Maryland,United States,Jun,24
+7/1/2012,26.469,0.426,Maryland,United States,Jul,24
+8/1/2012,24.387,0.338,Maryland,United States,Aug,24
+9/1/2012,20.032,0.218,Maryland,United States,Sep,24
+10/1/2012,14.082,0.291,Maryland,United States,Oct,24
+11/1/2012,6.054,0.245,Maryland,United States,Nov,24
+12/1/2012,5.664,0.298,Maryland,United States,Dec,24
+1/1/2012,-1.757,0.404,Massachusetts,United States,Jan,25
+2/1/2012,0.235,0.266,Massachusetts,United States,Feb,25
+3/1/2012,6.251,0.173,Massachusetts,United States,Mar,25
+4/1/2012,8.757,0.426,Massachusetts,United States,Apr,25
+5/1/2012,15.634,0.323,Massachusetts,United States,May,25
+6/1/2012,18.222,0.463,Massachusetts,United States,Jun,25
+7/1/2012,22.503,0.494,Massachusetts,United States,Jul,25
+8/1/2012,21.691,0.498,Massachusetts,United States,Aug,25
+9/1/2012,16.362,0.3,Massachusetts,United States,Sep,25
+10/1/2012,11.419,0.324,Massachusetts,United States,Oct,25
+11/1/2012,3.592,0.251,Massachusetts,United States,Nov,25
+12/1/2012,0.884,0.316,Massachusetts,United States,Dec,25
+1/1/2012,-3.354,0.429,Michigan,United States,Jan,26
+2/1/2012,-1.728,0.322,Michigan,United States,Feb,26
+3/1/2012,7.011,0.197,Michigan,United States,Mar,26
+4/1/2012,6.553,0.317,Michigan,United States,Apr,26
+5/1/2012,14.98,0.328,Michigan,United States,May,26
+6/1/2012,19.1,0.309,Michigan,United States,Jun,26
+7/1/2012,23.108,0.441,Michigan,United States,Jul,26
+8/1/2012,20.008,0.292,Michigan,United States,Aug,26
+9/1/2012,15.07,0.222,Michigan,United States,Sep,26
+10/1/2012,8.841,0.26,Michigan,United States,Oct,26
+11/1/2012,2.901,0.152,Michigan,United States,Nov,26
+12/1/2012,-0.344,0.287,Michigan,United States,Dec,26
+1/1/2012,-7.339,0.364,Minnesota,United States,Jan,27
+2/1/2012,-5.088,0.193,Minnesota,United States,Feb,27
+3/1/2012,5.529,0.124,Minnesota,United States,Mar,27
+4/1/2012,7.489,0.3,Minnesota,United States,Apr,27
+5/1/2012,14.825,0.253,Minnesota,United States,May,27
+6/1/2012,19.616,0.332,Minnesota,United States,Jun,27
+7/1/2012,23.8,0.346,Minnesota,United States,Jul,27
+8/1/2012,19.776,0.283,Minnesota,United States,Aug,27
+9/1/2012,14.421,0.202,Minnesota,United States,Sep,27
+10/1/2012,6.191,0.249,Minnesota,United States,Oct,27
+11/1/2012,-0.31,0.179,Minnesota,United States,Nov,27
+12/1/2012,-8.267,0.351,Minnesota,United States,Dec,27
+1/1/2012,10.874,0.307,Mississippi,United States,Jan,28
+2/1/2012,11.611,0.252,Mississippi,United States,Feb,28
+3/1/2012,19.027,0.121,Mississippi,United States,Mar,28
+4/1/2012,19.265,0.236,Mississippi,United States,Apr,28
+5/1/2012,24.14,0.161,Mississippi,United States,May,28
+6/1/2012,26.188,0.298,Mississippi,United States,Jun,28
+7/1/2012,28.375,0.272,Mississippi,United States,Jul,28
+8/1/2012,27.117,0.328,Mississippi,United States,Aug,28
+9/1/2012,24.239,0.219,Mississippi,United States,Sep,28
+10/1/2012,17.334,0.226,Mississippi,United States,Oct,28
+11/1/2012,11.767,0.232,Mississippi,United States,Nov,28
+12/1/2012,11.275,0.265,Mississippi,United States,Dec,28
+1/1/2012,2.409,0.287,Missouri,United States,Jan,29
+2/1/2012,4.327,0.225,Missouri,United States,Feb,29
+3/1/2012,14.727,0.17,Missouri,United States,Mar,29
+4/1/2012,15.085,0.269,Missouri,United States,Apr,29
+5/1/2012,21.414,0.205,Missouri,United States,May,29
+6/1/2012,24.327,0.286,Missouri,United States,Jun,29
+7/1/2012,29.279,0.278,Missouri,United States,Jul,29
+8/1/2012,25.203,0.27,Missouri,United States,Aug,29
+9/1/2012,20.034,0.171,Missouri,United States,Sep,29
+10/1/2012,12.728,0.212,Missouri,United States,Oct,29
+11/1/2012,7.632,0.112,Missouri,United States,Nov,29
+12/1/2012,3.879,0.243,Missouri,United States,Dec,29
+1/1/2012,-4.086,0.221,Montana,United States,Jan,30
+2/1/2012,-4.052,0.075,Montana,United States,Feb,30
+3/1/2012,4.033,0.164,Montana,United States,Mar,30
+4/1/2012,7.148,0.231,Montana,United States,Apr,30
+5/1/2012,10.016,0.208,Montana,United States,May,30
+6/1/2012,15.868,0.24,Montana,United States,Jun,30
+7/1/2012,21.623,0.236,Montana,United States,Jul,30
+8/1/2012,19.383,0.208,Montana,United States,Aug,30
+9/1/2012,14.662,0.23,Montana,United States,Sep,30
+10/1/2012,4.92,0.298,Montana,United States,Oct,30
+11/1/2012,0.367,0.262,Montana,United States,Nov,30
+12/1/2012,-5.896,0.26,Montana,United States,Dec,30
+1/1/2012,-0.856,0.299,Nebraska,United States,Jan,31
+2/1/2012,-1.426,0.253,Nebraska,United States,Feb,31
+3/1/2012,10.579,0.288,Nebraska,United States,Mar,31
+4/1/2012,12.117,0.29,Nebraska,United States,Apr,31
+5/1/2012,17.33,0.195,Nebraska,United States,May,31
+6/1/2012,23.498,0.293,Nebraska,United States,Jun,31
+7/1/2012,27.32,0.294,Nebraska,United States,Jul,31
+8/1/2012,23.352,0.279,Nebraska,United States,Aug,31
+9/1/2012,18.383,0.243,Nebraska,United States,Sep,31
+10/1/2012,9.166,0.267,Nebraska,United States,Oct,31
+11/1/2012,4.692,0.162,Nebraska,United States,Nov,31
+12/1/2012,-2.323,0.377,Nebraska,United States,Dec,31
+1/1/2012,1.157,0.265,Nevada,United States,Jan,32
+2/1/2012,1.35,0.292,Nevada,United States,Feb,32
+3/1/2012,5.92,0.156,Nevada,United States,Mar,32
+4/1/2012,10.158,0.248,Nevada,United States,Apr,32
+5/1/2012,14.767,0.212,Nevada,United States,May,32
+6/1/2012,19.285,0.31,Nevada,United States,Jun,32
+7/1/2012,23.42,0.338,Nevada,United States,Jul,32
+8/1/2012,23.677,0.201,Nevada,United States,Aug,32
+9/1/2012,19.108,0.203,Nevada,United States,Sep,32
+10/1/2012,11.603,0.284,Nevada,United States,Oct,32
+11/1/2012,6.022,0.241,Nevada,United States,Nov,32
+12/1/2012,-0.631,0.423,Nevada,United States,Dec,32
+1/1/2012,-5.309,0.384,New Hampshire,United States,Jan,33
+2/1/2012,-3.001,0.284,New Hampshire,United States,Feb,33
+3/1/2012,3.825,0.227,New Hampshire,United States,Mar,33
+4/1/2012,7.088,0.267,New Hampshire,United States,Apr,33
+5/1/2012,14.491,0.254,New Hampshire,United States,May,33
+6/1/2012,17.363,0.385,New Hampshire,United States,Jun,33
+7/1/2012,21.064,0.435,New Hampshire,United States,Jul,33
+8/1/2012,20.469,0.327,New Hampshire,United States,Aug,33
+9/1/2012,14.527,0.224,New Hampshire,United States,Sep,33
+10/1/2012,9.879,0.34,New Hampshire,United States,Oct,33
+11/1/2012,1.424,0.259,New Hampshire,United States,Nov,33
+12/1/2012,-1.946,0.358,New Hampshire,United States,Dec,33
+1/1/2012,1.636,0.454,New Jersey,United States,Jan,34
+2/1/2012,3.412,0.276,New Jersey,United States,Feb,34
+3/1/2012,9.508,0.166,New Jersey,United States,Mar,34
+4/1/2012,11.177,0.222,New Jersey,United States,Apr,34
+5/1/2012,18.227,0.24,New Jersey,United States,May,34
+6/1/2012,20.813,0.371,New Jersey,United States,Jun,34
+7/1/2012,25.251,0.342,New Jersey,United States,Jul,34
+8/1/2012,23.532,0.262,New Jersey,United States,Aug,34
+9/1/2012,19.101,0.302,New Jersey,United States,Sep,34
+10/1/2012,13.454,0.324,New Jersey,United States,Oct,34
+11/1/2012,5.107,0.312,New Jersey,United States,Nov,34
+12/1/2012,4.261,0.282,New Jersey,United States,Dec,34
+1/1/2012,3.428,0.272,New Mexico,United States,Jan,35
+2/1/2012,3.5,0.233,New Mexico,United States,Feb,35
+3/1/2012,9.107,0.165,New Mexico,United States,Mar,35
+4/1/2012,13.902,0.253,New Mexico,United States,Apr,35
+5/1/2012,17.752,0.149,New Mexico,United States,May,35
+6/1/2012,23.701,0.217,New Mexico,United States,Jun,35
+7/1/2012,23.867,0.208,New Mexico,United States,Jul,35
+8/1/2012,23.614,0.19,New Mexico,United States,Aug,35
+9/1/2012,19.189,0.141,New Mexico,United States,Sep,35
+10/1/2012,13.368,0.259,New Mexico,United States,Oct,35
+11/1/2012,8.32,0.231,New Mexico,United States,Nov,35
+12/1/2012,2.046,0.299,New Mexico,United States,Dec,35
+1/1/2012,-2.897,0.226,New York,United States,Jan,36
+2/1/2012,-0.731,0.16,New York,United States,Feb,36
+3/1/2012,6.583,0.135,New York,United States,Mar,36
+4/1/2012,7.122,0.256,New York,United States,Apr,36
+5/1/2012,16.33,0.228,New York,United States,May,36
+6/1/2012,18.873,0.325,New York,United States,Jun,36
+7/1/2012,22.646,0.37,New York,United States,Jul,36
+8/1/2012,21.104,0.287,New York,United States,Aug,36
+9/1/2012,16.181,0.195,New York,United States,Sep,36
+10/1/2012,10.912,0.234,New York,United States,Oct,36
+11/1/2012,2.638,0.248,New York,United States,Nov,36
+12/1/2012,0.216,0.294,New York,United States,Dec,36
+1/1/2012,6.947,0.347,North Carolina,United States,Jan,37
+2/1/2012,7.972,0.175,North Carolina,United States,Feb,37
+3/1/2012,15.15,0.177,North Carolina,United States,Mar,37
+4/1/2012,15.394,0.27,North Carolina,United States,Apr,37
+5/1/2012,21.329,0.241,North Carolina,United States,May,37
+6/1/2012,22.77,0.301,North Carolina,United States,Jun,37
+7/1/2012,27.262,0.263,North Carolina,United States,Jul,37
+8/1/2012,24.685,0.24,North Carolina,United States,Aug,37
+9/1/2012,21.472,0.194,North Carolina,United States,Sep,37
+10/1/2012,15.562,0.25,North Carolina,United States,Oct,37
+11/1/2012,8.416,0.249,North Carolina,United States,Nov,37
+12/1/2012,8.883,0.304,North Carolina,United States,Dec,37
+1/1/2012,-6.479,0.298,North Dakota,United States,Jan,38
+2/1/2012,-5.905,0.225,North Dakota,United States,Feb,38
+3/1/2012,5.127,0.183,North Dakota,United States,Mar,38
+4/1/2012,7.886,0.234,North Dakota,United States,Apr,38
+5/1/2012,13.176,0.254,North Dakota,United States,May,38
+6/1/2012,19.067,0.351,North Dakota,United States,Jun,38
+7/1/2012,23.849,0.26,North Dakota,United States,Jul,38
+8/1/2012,20.181,0.196,North Dakota,United States,Aug,38
+9/1/2012,15.01,0.25,North Dakota,United States,Sep,38
+10/1/2012,5.267,0.247,North Dakota,United States,Oct,38
+11/1/2012,-2.212,0.194,North Dakota,United States,Nov,38
+12/1/2012,-10.262,0.3,North Dakota,United States,Dec,38
+1/1/2012,0.287,0.275,Ohio,United States,Jan,39
+2/1/2012,1.954,0.273,Ohio,United States,Feb,39
+3/1/2012,11.408,0.201,Ohio,United States,Mar,39
+4/1/2012,10.379,0.34,Ohio,United States,Apr,39
+5/1/2012,19.668,0.216,Ohio,United States,May,39
+6/1/2012,21.871,0.284,Ohio,United States,Jun,39
+7/1/2012,25.93,0.327,Ohio,United States,Jul,39
+8/1/2012,22.465,0.328,Ohio,United States,Aug,39
+9/1/2012,18.014,0.213,Ohio,United States,Sep,39
+10/1/2012,11.578,0.273,Ohio,United States,Oct,39
+11/1/2012,4.594,0.159,Ohio,United States,Nov,39
+12/1/2012,3.359,0.258,Ohio,United States,Dec,39
+1/1/2012,6.207,0.286,Oklahoma,United States,Jan,40
+2/1/2012,6.817,0.169,Oklahoma,United States,Feb,40
+3/1/2012,15.619,0.122,Oklahoma,United States,Mar,40
+4/1/2012,18.184,0.307,Oklahoma,United States,Apr,40
+5/1/2012,23.095,0.243,Oklahoma,United States,May,40
+6/1/2012,26.676,0.277,Oklahoma,United States,Jun,40
+7/1/2012,30.409,0.326,Oklahoma,United States,Jul,40
+8/1/2012,27.964,0.257,Oklahoma,United States,Aug,40
+9/1/2012,23.925,0.169,Oklahoma,United States,Sep,40
+10/1/2012,15.676,0.252,Oklahoma,United States,Oct,40
+11/1/2012,11.704,0.164,Oklahoma,United States,Nov,40
+12/1/2012,5.866,0.273,Oklahoma,United States,Dec,40
+1/1/2012,1.178,0.317,Oregon,United States,Jan,41
+2/1/2012,1.613,0.228,Oregon,United States,Feb,41
+3/1/2012,3.86,0.136,Oregon,United States,Mar,41
+4/1/2012,7.942,0.33,Oregon,United States,Apr,41
+5/1/2012,10.789,0.248,Oregon,United States,May,41
+6/1/2012,13.415,0.276,Oregon,United States,Jun,41
+7/1/2012,19.193,0.308,Oregon,United States,Jul,41
+8/1/2012,19.733,0.253,Oregon,United States,Aug,41
+9/1/2012,16.317,0.319,Oregon,United States,Sep,41
+10/1/2012,9.235,0.256,Oregon,United States,Oct,41
+11/1/2012,5.009,0.242,Oregon,United States,Nov,41
+12/1/2012,0.077,0.405,Oregon,United States,Dec,41
+1/1/2012,-0.617,0.37,Pennsylvania,United States,Jan,42
+2/1/2012,1.525,0.211,Pennsylvania,United States,Feb,42
+3/1/2012,9.07,0.173,Pennsylvania,United States,Mar,42
+4/1/2012,9.043,0.319,Pennsylvania,United States,Apr,42
+5/1/2012,18.089,0.202,Pennsylvania,United States,May,42
+6/1/2012,19.882,0.342,Pennsylvania,United States,Jun,42
+7/1/2012,24.076,0.374,Pennsylvania,United States,Jul,42
+8/1/2012,21.747,0.284,Pennsylvania,United States,Aug,42
+9/1/2012,17.321,0.209,Pennsylvania,United States,Sep,42
+10/1/2012,11.571,0.255,Pennsylvania,United States,Oct,42
+11/1/2012,3.625,0.15,Pennsylvania,United States,Nov,42
+12/1/2012,2.422,0.214,Pennsylvania,United States,Dec,42
+1/1/2012,0.633,0.402,Rhode Island,United States,Jan,44
+2/1/2012,2.144,0.209,Rhode Island,United States,Feb,44
+3/1/2012,7.249,0.207,Rhode Island,United States,Mar,44
+4/1/2012,9.727,0.328,Rhode Island,United States,Apr,44
+5/1/2012,15.881,0.245,Rhode Island,United States,May,44
+6/1/2012,18.83,0.394,Rhode Island,United States,Jun,44
+7/1/2012,23.192,0.414,Rhode Island,United States,Jul,44
+8/1/2012,22.418,0.415,Rhode Island,United States,Aug,44
+9/1/2012,17.733,0.306,Rhode Island,United States,Sep,44
+10/1/2012,12.984,0.381,Rhode Island,United States,Oct,44
+11/1/2012,5.09,0.228,Rhode Island,United States,Nov,44
+12/1/2012,3.156,0.338,Rhode Island,United States,Dec,44
+1/1/2012,9.596,0.302,South Carolina,United States,Jan,45
+2/1/2012,10.828,0.199,South Carolina,United States,Feb,45
+3/1/2012,17.774,0.16,South Carolina,United States,Mar,45
+4/1/2012,18.293,0.281,South Carolina,United States,Apr,45
+5/1/2012,23.198,0.231,South Carolina,United States,May,45
+6/1/2012,24.301,0.244,South Carolina,United States,Jun,45
+7/1/2012,28.614,0.301,South Carolina,United States,Jul,45
+8/1/2012,25.991,0.24,South Carolina,United States,Aug,45
+9/1/2012,23.644,0.157,South Carolina,United States,Sep,45
+10/1/2012,18.105,0.244,South Carolina,United States,Oct,45
+11/1/2012,11.048,0.188,South Carolina,United States,Nov,45
+12/1/2012,11.259,0.274,South Carolina,United States,Dec,45
+1/1/2012,-3.449,0.252,South Dakota,United States,Jan,46
+2/1/2012,-3.348,0.21,South Dakota,United States,Feb,46
+3/1/2012,8.43,0.09,South Dakota,United States,Mar,46
+4/1/2012,10.278,0.311,South Dakota,United States,Apr,46
+5/1/2012,15.173,0.234,South Dakota,United States,May,46
+6/1/2012,21.742,0.32,South Dakota,United States,Jun,46
+7/1/2012,26.397,0.3,South Dakota,United States,Jul,46
+8/1/2012,22.163,0.206,South Dakota,United States,Aug,46
+9/1/2012,17.431,0.163,South Dakota,United States,Sep,46
+10/1/2012,7.753,0.2,South Dakota,United States,Oct,46
+11/1/2012,1.952,0.117,South Dakota,United States,Nov,46
+12/1/2012,-5.629,0.278,South Dakota,United States,Dec,46
+1/1/2012,5.799,0.294,Tennessee,United States,Jan,47
+2/1/2012,7.028,0.24,Tennessee,United States,Feb,47
+3/1/2012,15.656,0.176,Tennessee,United States,Mar,47
+4/1/2012,15.826,0.254,Tennessee,United States,Apr,47
+5/1/2012,21.705,0.17,Tennessee,United States,May,47
+6/1/2012,23.524,0.281,Tennessee,United States,Jun,47
+7/1/2012,27.383,0.324,Tennessee,United States,Jul,47
+8/1/2012,24.64,0.304,Tennessee,United States,Aug,47
+9/1/2012,20.968,0.203,Tennessee,United States,Sep,47
+10/1/2012,13.975,0.282,Tennessee,United States,Oct,47
+11/1/2012,8.008,0.144,Tennessee,United States,Nov,47
+12/1/2012,7.658,0.304,Tennessee,United States,Dec,47
+1/1/2012,10.127,0.238,Texas,United States,Jan,48
+2/1/2012,10.911,0.15,Texas,United States,Feb,48
+3/1/2012,17.261,0.155,Texas,United States,Mar,48
+4/1/2012,21.19,0.244,Texas,United States,Apr,48
+5/1/2012,24.288,0.176,Texas,United States,May,48
+6/1/2012,28.138,0.273,Texas,United States,Jun,48
+7/1/2012,28.809,0.259,Texas,United States,Jul,48
+8/1/2012,28.942,0.266,Texas,United States,Aug,48
+9/1/2012,25.026,0.211,Texas,United States,Sep,48
+10/1/2012,18.909,0.239,Texas,United States,Oct,48
+11/1/2012,15.059,0.162,Texas,United States,Nov,48
+12/1/2012,10.457,0.301,Texas,United States,Dec,48
+1/1/2012,-1.012,0.321,Utah,United States,Jan,49
+2/1/2012,-0.694,0.281,Utah,United States,Feb,49
+3/1/2012,5.686,0.19,Utah,United States,Mar,49
+4/1/2012,9.541,0.296,Utah,United States,Apr,49
+5/1/2012,14.272,0.186,Utah,United States,May,49
+6/1/2012,20.099,0.255,Utah,United States,Jun,49
+7/1/2012,22.669,0.266,Utah,United States,Jul,49
+8/1/2012,22.55,0.232,Utah,United States,Aug,49
+9/1/2012,17.382,0.246,Utah,United States,Sep,49
+10/1/2012,10.156,0.24,Utah,United States,Oct,49
+11/1/2012,4.914,0.277,Utah,United States,Nov,49
+12/1/2012,-2.58,0.312,Utah,United States,Dec,49
+1/1/2012,-5.615,0.371,Vermont,United States,Jan,50
+2/1/2012,-3.244,0.246,Vermont,United States,Feb,50
+3/1/2012,3.882,0.216,Vermont,United States,Mar,50
+4/1/2012,6.542,0.223,Vermont,United States,Apr,50
+5/1/2012,14.54,0.227,Vermont,United States,May,50
+6/1/2012,17.447,0.386,Vermont,United States,Jun,50
+7/1/2012,20.883,0.446,Vermont,United States,Jul,50
+8/1/2012,20.243,0.27,Vermont,United States,Aug,50
+9/1/2012,14.475,0.187,Vermont,United States,Sep,50
+10/1/2012,9.761,0.317,Vermont,United States,Oct,50
+11/1/2012,1.115,0.227,Vermont,United States,Nov,50
+12/1/2012,-2.191,0.343,Vermont,United States,Dec,50
+1/1/2012,4.122,0.314,Virginia,United States,Jan,51
+2/1/2012,5.587,0.111,Virginia,United States,Feb,51
+3/1/2012,13.129,0.212,Virginia,United States,Mar,51
+4/1/2012,13.254,0.343,Virginia,United States,Apr,51
+5/1/2012,20.177,0.289,Virginia,United States,May,51
+6/1/2012,21.721,0.383,Virginia,United States,Jun,51
+7/1/2012,26.479,0.358,Virginia,United States,Jul,51
+8/1/2012,23.883,0.259,Virginia,United States,Aug,51
+9/1/2012,19.934,0.194,Virginia,United States,Sep,51
+10/1/2012,13.824,0.296,Virginia,United States,Oct,51
+11/1/2012,6.349,0.165,Virginia,United States,Nov,51
+12/1/2012,6.311,0.277,Virginia,United States,Dec,51
+1/1/2012,-0.77,0.299,Washington,United States,Jan,53
+2/1/2012,1.277,0.24,Washington,United States,Feb,53
+3/1/2012,3.361,0.153,Washington,United States,Mar,53
+4/1/2012,7.968,0.315,Washington,United States,Apr,53
+5/1/2012,10.856,0.248,Washington,United States,May,53
+6/1/2012,13.144,0.28,Washington,United States,Jun,53
+7/1/2012,18.57,0.386,Washington,United States,Jul,53
+8/1/2012,19.106,0.28,Washington,United States,Aug,53
+9/1/2012,15.366,0.253,Washington,United States,Sep,53
+10/1/2012,8.457,0.242,Washington,United States,Oct,53
+11/1/2012,4.11,0.249,Washington,United States,Nov,53
+12/1/2012,0.29,0.307,Washington,United States,Dec,53
+1/1/2012,1.848,0.305,West Virginia,United States,Jan,54
+2/1/2012,3.365,0.2,West Virginia,United States,Feb,54
+3/1/2012,11.675,0.186,West Virginia,United States,Mar,54
+4/1/2012,11.188,0.293,West Virginia,United States,Apr,54
+5/1/2012,19.4,0.269,West Virginia,United States,May,54
+6/1/2012,20.615,0.344,West Virginia,United States,Jun,54
+7/1/2012,24.982,0.346,West Virginia,United States,Jul,54
+8/1/2012,22.281,0.229,West Virginia,United States,Aug,54
+9/1/2012,18.345,0.196,West Virginia,United States,Sep,54
+10/1/2012,11.94,0.284,West Virginia,United States,Oct,54
+11/1/2012,4.605,0.139,West Virginia,United States,Nov,54
+12/1/2012,4.28,0.24,West Virginia,United States,Dec,54
+1/1/2012,-5.667,0.407,Wisconsin,United States,Jan,55
+2/1/2012,-2.827,0.284,Wisconsin,United States,Feb,55
+3/1/2012,7.852,0.204,Wisconsin,United States,Mar,55
+4/1/2012,7.472,0.354,Wisconsin,United States,Apr,55
+5/1/2012,15.751,0.363,Wisconsin,United States,May,55
+6/1/2012,19.955,0.358,Wisconsin,United States,Jun,55
+7/1/2012,24.157,0.439,Wisconsin,United States,Jul,55
+8/1/2012,20.008,0.286,Wisconsin,United States,Aug,55
+9/1/2012,14.744,0.223,Wisconsin,United States,Sep,55
+10/1/2012,7.544,0.257,Wisconsin,United States,Oct,55
+11/1/2012,1.888,0.206,Wisconsin,United States,Nov,55
+12/1/2012,-3.367,0.301,Wisconsin,United States,Dec,55
+1/1/2012,-3.808,0.287,Wyoming,United States,Jan,56
+2/1/2012,-4.91,0.251,Wyoming,United States,Feb,56
+3/1/2012,4.259,0.128,Wyoming,United States,Mar,56
+4/1/2012,7.111,0.292,Wyoming,United States,Apr,56
+5/1/2012,10.369,0.209,Wyoming,United States,May,56
+6/1/2012,17.366,0.239,Wyoming,United States,Jun,56
+7/1/2012,21.363,0.192,Wyoming,United States,Jul,56
+8/1/2012,19.468,0.245,Wyoming,United States,Aug,56
+9/1/2012,14.491,0.221,Wyoming,United States,Sep,56
+10/1/2012,5.455,0.264,Wyoming,United States,Oct,56
+11/1/2012,1.884,0.139,Wyoming,United States,Nov,56
+12/1/2012,-5.374,0.375,Wyoming,United States,Dec,56
