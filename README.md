@@ -1,9 +1,13 @@
 DATA SCIENCE - GRAD SCHOOL FINDER
+
+
 PROJECT MEMBERS: Pranavnath Dommatta (u1068846)
-                 Neha Pathapati (u1069211)
+				 Neha Pathapati (u1069211)
 
 PROJECT REPOSITORY URL: https://github.com/u1068846/VisProject.git
-PROJECT WEBSITE URL:
+
+PROJECT WEBSITE URL:https://u1068846.github.io/VisProject/gradSchoolFinder.html
+
 PROJECT SCREENCAST URL: 
 
 SUBMISSION DETAILS:
