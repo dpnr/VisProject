@@ -1,0 +1,815 @@
+
+/*
+here are the styles for the tabs in the html
+*/
+
+#btnSelected {
+    padding: 1.5px 11px;
+    background-color: #d9d9d9;
+    color: black;
+}
+
+ul.tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* border: 1px solid #ccc; */
+    background-color: #333333;
+}
+
+/* Float the list items side by side */
+ul.tab li {float: right;}
+
+/* for the title float left */
+
+ul.tab #left {float: left !important;
+font-size : 30px;
+}
+
+
+ul.tab #can {float: left !important;
+font-size : 30px;
+font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+color:white;
+}
+
+
+ul.tab #leftcap {float: left !important;
+font-size : 12px;
+padding-left: 70px;
+}
+
+/* Style the links inside the list items */
+ul.tab li a {
+    display: inline-block;
+    color: #b5cac8;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 19px;
+}
+
+/* Change background color of links on hover */
+ul.tab li a:hover {background-color: #ddd;}
+
+/* Create an active/current tablink class */
+ul.tab li a:focus, .active {background-color: #5d7171;}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 0px;
+    
+    border-top: none;
+    color: #fdfdfd;
+}
+
+/* from here the styles are for the elements inside the body */
+.multiselect {
+    width: 200px;
+}
+
+div {
+    display: inline-block;
+   /*  border: 1px solid lightgray;
+ */	
+	
+}
+.selectBox {
+    position: relative;
+}
+
+.selectBox select {
+    width: 100%;
+    font-weight: bold;
+}
+
+.overSelect {
+    position: absolute;
+    left: 0; right: 0; top: 0; bottom: 0;
+}
+
+#checkboxes {
+    display: none;
+    border: 1px #dadada solid;
+}
+
+#checkboxes label {
+    display: block;
+}
+
+#checkboxes label:hover {
+    background-color: #1e90ff;
+}
+#info {
+	text-align: center;
+    position: relative;
+    left: 10px;
+    font-size: 8px;
+    bottom: 9px
+}
+
+/* LIST */
+#University-list {
+    width: 500px;
+    height: 575px;
+    margin-right: 0px;
+    margin-left: 20px;
+    margin-top: 0px;
+    float: left;
+}
+.fixed_headers {
+    width: 500px;
+    height: 575px; /*added*/
+    display: block;  /*added*/
+    margin-left: 0px;
+    table-layout: fixed;
+    border-collapse: separate;
+}
+.fixed_headers th {
+    padding: 5px;
+    text-align: center;
+	table-layout: fixed;
+}
+.fixed_headers td {
+    padding: 5px;
+    text-align: left;
+    color: black;
+}
+.fixed_headers td:nth-child(1),
+.fixed_headers th:nth-child(1) {
+    min-width: 220px;
+}
+.fixed_headers td:nth-child(2),
+.fixed_headers th:nth-child(2) {
+    min-width: 220px;
+}
+.fixed_headers td:nth-child(3),
+.fixed_headers th:nth-child(3) {
+    width: 60px;
+    text-align: center;
+    cursor: pointer;
+}
+.fixed_headers thead {
+    background-color: #333333;
+    height: 30px;
+    color: #fdfdfd;
+    cursor: pointer;
+    display: block;
+    table-layout: fixed;
+    overflow: hidden;
+}
+.fixed_headers thead tr {
+    display: block;
+    position: relative;
+    table-layout: fixed;
+}
+.fixed_headers tbody {
+    display: block;
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+    width: 100%;
+    height: 560px;
+}
+.fixed_headers tbody tr:nth-child(even) {
+    background-color: #9ecae1;
+}
+.fixed_headers tbody tr:nth-child(odd) {
+    background-color: #3182bd;
+}
+.old_ie_wrapper {
+    height: 560px;
+    width: 500px;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+.old_ie_wrapper tbody {
+    height: 480px;
+}
+
+#clear{
+	background-color:rgba(218, 238, 239,0.5);
+    padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+#map1 {
+    margin-top:60px;
+}
+
+#helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+	
+}
+#frame {
+    width: 40px; /*can be in percentage also.*/
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+}
+#right {
+    background-color : rgba(57, 128, 130, 0.79);
+	padding-left: 30px;
+}
+
+#history {
+   background-color : rgba(47, 84, 86, 0.8);
+	padding-left: 15px;
+}
+#left {
+    background-color : rgba(57, 128, 130, 0.79);
+	opacity: 1;
+}  
+
+	
+.parcoords1 {
+    width: 1020px;
+    height:500px;
+    /* display: block; */
+}
+
+.countries {
+    stroke: #f7f7f7;
+   /* fill: #008000; */
+    fill: #2b81b5;
+    
+}
+
+.silver {
+    fill: #d9d9d9;
+    opacity: .8;
+    stroke: #252525;
+    stroke-width: 1px;
+}
+
+.selected {
+	fill: rgb(15, 76, 91);
+    opacity: .8;
+    stroke: #777;
+    stroke-width: 3px;
+}
+
+.clicked {
+     fill: #696969;
+    opacity: .8;
+    stroke: rgba(0, 0, 0, 0.29);
+    stroke-width: 3px;
+    width: 100%;
+}
+
+.highlighted {
+    fill: #696969;
+    opacity: .8;
+    stroke: #252525;
+    stroke-width: 1px;
+}
+text {
+    font-family: Veranda, sans-serif;
+    font-size: 15px;
+    color: #fdfdfd;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 20px;
+}
+.clickedFromList {
+    fill: #696969;
+    opacity: .8;
+    stroke: rgba(0, 0, 0, 0.29);
+    stroke-width: 3px;
+    width: 100%;
+}
+
+.selectedFromList {
+   fill: rgb(15, 76, 91);
+    opacity: .8;
+    stroke: #777;
+    stroke-width: 3px;
+}
+
+input {
+    font-weight: bold;
+}
+.tooltip {
+    position: absolute;
+    width: auto;
+    height: auto;
+    pointer-events: none;
+    line-height: 1;
+    /*font-weight: bold;*/
+    padding: 12px;
+    font-size: 25px;
+    background: #666666;
+    color: white;
+    border-radius: 2px;
+}
+
+span {
+    padding: 0.50em;
+}
+
+body {
+    font-family: Veranda, sans-serif;
+    color: #fdfdfd;
+}
+
+h1, h2, h4, h5 {
+    font-family: Veranda, sans-serif;
+    font-size:35px;
+    color: #fdfdfd;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 20px;
+}
+h3 {
+    font-family: Veranda, sans-serif;
+    font-size:35px;
+    color: #fdfdfd;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 20px;
+    text-anchor:middle;
+    font-size: 32px;
+}
+
+
+.months {
+    font-family: Veranda, sans-serif;
+    font-size: 22px;
+    color: #464646;
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid green ;
+}
+
+.info{
+    margin-left: 20px;
+}
+
+.tile {
+    stroke: #FFF;
+    stroke-width: 4;
+}
+
+.Axis{
+    stroke: #eee;
+    stroke-width: 4;
+}
+
+.content1 {
+    
+    width: 70%;
+	
+}
+
+#rec_list{
+	background-color:(218, 238, 239,0.3);
+	padding-top: 0px;
+}
+.side {
+    display: inline-block;
+    width: 60%;
+	float:right;
+    color: #fdfdfd;
+}
+
+.sideBar1 {
+    display: inline-block;
+    width: 210px;
+    float:right;
+	padding-top: 0px;
+}
+
+.sideBar {
+    display: inline-block;
+    width: 30%;
+    float:right;
+}
+
+.full {
+    
+    display: inline-block;
+    width: 90%;
+   
+	padding-top: 100px;
+}
+
+.middlePoint{
+    stroke: #eee;
+}
+
+.fullView{
+    display: inline-block;
+    width: 100%;
+}
+.fullView1{
+    display: inline-block;
+    width: 1135px;
+}
+.view{
+	display: inline-block;
+	width: 100%;
+}
+
+.highlighted{
+    stroke: #404040;;
+    stroke-width:4;
+}
+#image{
+	opacity:1;
+	padding-top:200px;
+	
+	
+}
+#left{
+	padding-left:7px;
+	color:#fdfdfd;
+}
+#comparator #left{
+	
+padding-left: 30px;
+	
+}
+#oneimage{
+	height:180px ;
+	width:180px;
+	opacity:0.6;
+	/* border-radius:50% 50% 50% 50%;
+	border:1px solid #021a40; */
+}
+h2{
+    -webkit-margin-before: 5px;
+    -webkit-margin-after:  5px;
+}
+
+.d3-tip {
+    /*line-height: 5;*/
+    padding-left: 10px;
+    padding-right: 10px;
+    min-width: 400px;
+    border-style: groove;
+    /*padding: 12px;*/
+    background: #d9d9d9;
+    color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    pointer-events: none;
+}
+
+.tooltip-title{
+    font-size:25px;
+    font-family: Veranda, sans-serif;
+}
+
+    svg {
+        font: 10px sans-serif;
+    }
+
+    .background path {
+        fill: none;
+        stroke: #4f7973;
+		stroke-width:1.0px;
+        shape-rendering: crispEdges;
+    }
+
+    .foreground path {
+        fill: none;
+        stroke: #063e78;
+		stroke-width: 2px;
+    }
+
+    .brush .extent {
+        fill-opacity: .3;
+        stroke: #337ab7;
+        shape-rendering: crispEdges;
+    }
+
+    .axis line,
+    .axis path {
+        fill: none;
+        stroke: #000;
+        shape-rendering: crispEdges;
+    }
+
+    .axis text {
+        text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
+        cursor: move;
+    }
+
+
+.hover1 {
+	fill: red !important;
+}
+
+.right {
+	float: right ;
+}
+
+.dis_link {
+	font-size : 15px !important;
+	text-decoration: underline !important;
+	fill: blue !important;
+	font-weight:bold;
+}
+
+#clear {
+/* background: url(wall2.jpg) no-repeat 10% fixed; */
+}
+
+/* Months Buttons */
+#nav {
+    /* 	position: absolute; */
+    display: inline;
+    width:800px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    list-style: none;
+}
+ul {
+    width:100%;
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    float: inherit;
+}
+ul li {
+    display:inline-block;
+    font-size: 13.5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.monthsAxis {
+    display:inline-block;
+    border: 1px solid black;
+    margin-bottom:10px;
+    padding:10px 10px 15px 7px;
+    color:#fdfdfd;
+    font-size:12.5px;
+    border-color: #2b8cbe;
+    background-color: rgba(51, 51, 51,0.8);
+}
+.monthsAxis:hover { text-decoration: none; color:white;
+    background: #a9a9a9;
+    cursor: pointer;
+}
+.monthsAxis:active {
+    text-decoration: none; color:white;
+    background-color: #a9a9a9;
+}
+.monthClicked {
+    border: 1px solid black;
+    margin-bottom:10px;
+    padding:10px 10px 15px 7px;
+    color:white;
+    font-size:12.5px;
+    border-color: #2b8cbe;
+    background: #a9a9a9;
+    cursor: pointer;
+}
+.rounded {
+    font-family: apercuregular, Veranda, sans-serif;
+    margin-left: 0px;
+    margin-right: 0px;
+    cursor: pointer;
+}
+
+ #Visualization, #Screen , #Process
+{
+
+background: url(camp3.png) no-repeat center fixed ;
+
+}  
+html
+{
+
+background: url(camp3.png) no-repeat center fixed ;
+
+}  
+
+#welcome
+{
+	
+border:  1px solid black;
+}
+
+#oneimage1
+{
+	height:180px ;
+	width:210px;
+	opacity:0.6;
+	
+}
+
+.team_labelh1
+{
+	fill: #9ecae1;
+	font-size: 30px;
+	font-weight: bold;
+    /*
+    fill: fdfdfd;
+	*/
+}
+
+#leftside  .hover1{
+	
+	fill: #9ecae1 !important;
+	stroke:white;
+	stroke-width:2.5px;
+	
+}
+#line1 {
+	stroke: #9ecae1 !important;
+	stroke-width: 3px;
+}
+
+.team_labelh2
+{
+	fill: #162f58  ;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#rightside  .hover1{
+	fill: #162f58  !important;
+	stroke:white;
+	stroke-width:2.5px;
+}
+#line2 {
+	stroke: #162f58  !important;
+	stroke-width: 3px;
+}
+
+#recommend
+{
+	font-size: 18px;
+	stroke-width: 10px;
+	padding-top:20px;
+}
+
+.hoverpath
+{
+	   fill: none;
+        stroke: black !important;
+		stroke-width: 4px !important;
+		
+	
+}
+
+.centre {
+     padding-left:300px;
+	padding-right:300px;
+}
+
+iframe{
+	
+	padding-left:300px;
+	padding-right:300px;
+}
+object{
+	
+	padding-left:150px;
+	padding-right:150px;
+}
+
+.block {
+    display: inline-block !important;
+	
+}
+
+
+
+
+.none {
+    display: none ;
+	
+}
+
+.domain
+{
+fill:none;	
+	
+}
+
+/* pranav changes from dec1 */
+
+
+#par {
+	display:block !important;
+	
+}
+
+/*comparator styles */
+
+#text1{
+	background-color:rgb(0,0,0);
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size:20px;
+	
+	
+}
+#text2{
+	background-color:rgb(0,0,0);
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size:20px;
+	stroke-width:2px;
+	
+	}
+	
+#xAxis1 text,#xAxis2 text,#yAxis1 text,#yAxis2 text,#xAxish text,#yAxish text{
+		font-family:Verdana, Geneva, sans-serif;
+		font-size:14px;
+		font-weight: bold;
+		fill:black;
+			
+	}
+	
+	#xAxish text,#yAxish text{
+		font-family:Verdana, Geneva, sans-serif;
+		font-size:14px;
+		font-weight: bold;
+		fill:black; /*#b3b3b3;*/
+			
+	}
+	
+	
+	#schooltext text,#axishead text {
+		
+		font-family: "Trebuchet MS", Helvetica, sans-serif;
+		font-size: 20px;
+		fill:#bbbbbb;
+	}
+
+	#displaytext{
+		font-family: "Trebuchet MS", Helvetica, sans-serif;
+		font-size: 20px;
+		
+		
+	}
+	
+	.dis_univ{
+		    font-family: "Trebuchet MS", Helvetica, sans-serif;
+			font-size: 24px;
+			fill: #080458;
+			font-weight: bold;
+		
+	}
+	.dis_rank{
+		font-family: "Trebuchet MS", Helvetica, sans-serif;
+			font-size: 22px;
+			fill: white;
+			font-weight: bold;
+	}
+	.dis_imp{
+		font-family: "Trebuchet MS", Helvetica, sans-serif;
+		font-size: 22px;
+		fill: #080458;
+	}
+	.dis_notimp{
+		font-family: "Trebuchet MS", Helvetica, sans-serif;
+		font-size: 15px;
+		
+	}
+	.dis_add{
+		font-family: "Trebuchet MS", Helvetica, sans-serif;
+		font-size: 16px;
+		font-weight:bold;
+	}
+	
+	#test text{
+		font-family: "Comic Sans MS", cursive, sans-serif;
+		font-size: 15px;
+			
+	}
+	
+	.suggestion {
+		
+		font-family: "Trebuchet MS", Helvetica, sans-serif;
+		font-size: 20px;
+		color: rgba(33, 2, 2, 1.0);
+		
+	}
+	
+	.intro_body{
+		font-family: "Trebuchet MS", Helvetica, sans-serif !important;
+		font-size: 15px !important;
+		
+	}
+	.intro_bodyq{
+		font-family: "Trebuchet MS", Helvetica, sans-serif !important;
+		font-size: 19px !important;
+		fill:#999 !important;
+		
+	}
+	.intro_head{
+		font-family: "Trebuchet MS", Helvetica, sans-serif !important;
+		font-size: 22px !important;
+		fill: #000000 !important;
+		
+	}
