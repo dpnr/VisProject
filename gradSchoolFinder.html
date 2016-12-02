@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+    <meta charset="UTF-8">
+    <title>Data Science - Grad School Finder</title>
+    <link rel="stylesheet" href="public/css/style.css"/>
+    <script src="https://d3js.org/d3.v3.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.9.0/d3-legend.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.19/topojson.min.js"></script>
+    <script src="https://d3js.org/d3-array.v1.min.js"></script>
+    <script src="https://d3js.org/d3-geo.v1.min.js"></script>
+
+    <!-- Include Twitter Bootstrap and jQuery: -->
+    <link rel="stylesheet" href="bower_components/bootstrap-multiselect-master/docs/css/bootstrap-3.3.2.min.css" type="text/css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script type="text/javascript" src="bower_components/bootstrap-multiselect-master/docs/js/bootstrap-3.3.2.min.js"></script>
+
+    <!-- Include the plugin's CSS and JS: -->
+    <script type="text/javascript" src="bower_components/bootstrap-multiselect-master/dist/js/bootstrap-multiselect.js"></script>
+    <link rel="stylesheet" href="bower_components/bootstrap-multiselect-master/dist/css/bootstrap-multiselect.css" type="text/css"/>
+	
+</head>
+
+
+<body>
+<ul class="tab">
+    <li face="verdana" id="left" >DATA SCIENCE  </li>
+	<li id="can" > .Grad School Finder</li>
+    <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Process')">Process Book</a></li>
+    <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Screen')">Screen Cast</a></li>
+    <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Visualization')" id="defaultOpen">Visualization</a></li>
+</ul>
+
+<!-- contents for the other tabs -->
+<div id="Screen" class="tabcontent">
+    <h3>Screen Cast</h3>
+    <iframe class="center" width="1350" height="500" src="https://www.youtube.com/v/qxPnxyJauHc"></iframe>
+</div>
+
+<div id="Process" class="tabcontent">
+    <h3>Process book</h3>
+    <object class="center" width="1350" height="600" data="data\Process Book_ProjectMilestone.pdf"></object>
+</div> 
+
+
+
+<div id="Visualization" class="tabcontent">
+    <h3>FILTERS:</h3>
+    <span>
+        <label><h5>Grad Program Type:</h5></label>
+        <select id="programType" multiple="multiple">
+            <option selected value="M">Master's</option>
+            <option value="C">Certificate</option>
+        </select>
+    </span>
+
+    <span>
+        <label><h5>World Rank of Program:</h5></label>
+        <select id="worldRank" multiple="multiple">
+            <option selected value="1-50">1 - 50</option>
+            <option value="51-100">51 - 100</option>
+            <option value="101-150">101 - 150</option>
+            <option value="151-200">151 - 200</option>
+            <option value="201-300">201 - 300</option>
+            <option value="301-400">301 - 400</option>
+            <option value="401-800">Above 400</option>
+        </select>
+    </span>
+
+    <span>
+        <label><h5>Prerequisites:</h5></label>
+        <select id="prereq">
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+            <option selected value="any">Doesn't Matter</option>
+        </select>
+    </span>
+
+    <span>
+        <button type="button" id="btnSelected">Find Schools!<span class="glyphicon glyphicon-search"></span></button>
+    </span>
+
+    <script type="text/javascript">
+    $(function () {
+        $('#programType').multiselect({
+            includeSelectAllOption: true,
+            placeholder: 'Select'
+        });
+
+        $('#worldRank').multiselect({
+            includeSelectAllOption: true,
+            placeholder: 'Select'
+        });
+
+        $('#prereq').multiselect({
+            includeSelectAllOption: true,
+            placeholder: 'Select'
+        });
+    });
+
+    $('#btnSelected').click(function () {
+
+        var programSelected = [];
+        var ranksSelected = [];
+        var prereqSelected = [];
+
+        var programs = $("#programType option:selected");
+        programs.each(function () {
+            programSelected.push($(this).val());
+        });
+
+        var ranks = $("#worldRank option:selected");
+        ranks.each(function () {
+            ranksSelected.push($(this).val());
+        });
+
+        var prereq = $("#prereq option:selected");
+        prereq.each(function () {
+            prereqSelected.push($(this).val());
+        });
+
+        FilterChart.prototype.getFilterValues(programSelected, ranksSelected, prereqSelected);
+    });
+</script>
+
+<!-- This are the welcome page images -->
+<div id="welcome">
+    <img src="public/css/home.png" width="100%" height= "100%">
+    <img src="public/css/home-data.png" width="100%" height= "100%">
+
+</div>
+
+
+
+
+    <div id = "map1" class="side hide1"  width="800" height="800" >
+        <svg id="color" width="800" height="450">
+            <circle class="clicked" cx="140" cy="25" r="12"></circle>
+            <text x="160" y="30">SELECTED</text>
+            <circle class="silver" cx="310" cy="25" r="12"></circle>
+            <text x="330" y="30">UNSELECTED</text>
+            <circle class="selected" cx="500" cy="25" r="12"></circle>
+            <text x="520" y="30">SELECTED TO COMPARE</text>
+            <g id="map" transform="translate(-70,0)" ></g>
+            <g id="points" transform="translate(-70,0)" ></g>
+        </svg>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <svg id="temp" width="800" height="40">
+            <!-- <div id="temp"></div> -->
+        </svg>
+
+        <br>
+
+        <!-- <svg width="800" height="60"> -->
+            <!-- <div id="nav"> -->
+                <ul>
+                    <li id="Jan" class="monthsAxis rounded" onclick="climate_func('Jan', id)">JAN</li>
+                    <li id="Feb" class="monthsAxis rounded" onclick="climate_func('Feb')">FEB</li>
+                    <li id="Mar" class="monthsAxis rounded" onclick="climate_func('Mar')">MAR</li>
+                    <li id="Apr" class="monthsAxis rounded" onclick="climate_func('Apr')">APR</li>
+                    <li id="May" class="monthsAxis rounded" onclick="climate_func('May')">MAY</li>
+                    <li id="Jun" class="monthsAxis rounded" onclick="climate_func('Jun')">JUN</li>
+                    <li id="Jul" class="monthsAxis rounded" onclick="climate_func('Jul')">JUL</li>
+                    <li id="Aug" class="monthsAxis rounded" onclick="climate_func('Aug')">AUG</li>
+                    <li id="Sep" class="monthsAxis rounded" onclick="climate_func('Sep')">SEP</li>
+                    <li id="Oct" class="monthsAxis rounded" onclick="climate_func('Oct')">OCT</li>
+                    <li id="Nov" class="monthsAxis rounded" onclick="climate_func('Nov')">NOV</li>
+                    <li id="Dec" class="monthsAxis rounded" onclick="climate_func('Dec')">DEC</li>
+                </ul>
+            <!-- </div> -->
+        <!-- </svg> -->
+    </div>
+
+    <br><br><br>
+
+    <h3 class="hide1">LIST OF SCHOOLS:</h3>
+	 <div id = "University-list" class ="old_ie_wrapper hide1">
+         <table class="fixed_headers">
+        <thead id="header">
+        <tr>
+            <th id="head1">SCHOOL</th>
+            <th id="head2">DEPARTMENT</th>
+            <th id="head3">ADD</th>
+        </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+<div id="comparator" class="fullView1 hide1">
+	<h3>EXPLORE & COMPARE SCHOOLS:</h3>
+        <svg id="left" width="400" height="500"  >
+			<g id="name1"></g>
+            <g id="xAxis1"></g>
+            <g id="yAxis1"></g>
+            <g id="leftside"></g>
+    </svg>
+	  <svg id="history" width="325" height="500" >
+			<g id="par_intro"></g>
+			<g id="schooltext"></g>
+            <g id="schooltext1"></g>
+			<g id="schooltext2"></g>
+			<g id="axishead"></g>
+            <g id="xAxish"></g>
+            <g id="yAxish"></g>
+            <g id="lines">
+            <path id="line1" />
+			<path id="line2" />
+            </g>
+
+    </svg>
+	
+        <svg id="right" width="400" height="500" >
+				
+			<g id="name2">
+				
+			</g>
+            <g id="xAxis2"></g>
+            <g id="yAxis2"></g>
+            <g id="rightside"></g>
+			
+        </svg>
+	    
+   
+</div>
+
+
+<div id="image" class="sideBar1 hide1" height="570">
+</div>
+
+    <br><br><br><br>
+	
+    
+	
+<div id="test" class="content1 hide1" >
+<h3 >PARALLEL AXES:</h3>
+    <svg id="clear"  width="900" height="550">
+        <g id="paxes" transform="translate(10,30)"></g>
+    </svg>
+	
+</div>
+
+<div id="rec_list" class="sideBar hide1"  width="900" height="500">
+    <h3>RECOMMENDATIONS:</h3>
+ <g id="recommend"></g>
+</div>
+
+
+<script>
+
+
+function openCity(evt, cityName) {
+    // Declare all variables
+    var i, tabcontent, tablinks;
+	
+    // Get all elements with class="tabcontent" and hide them
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+	
+	
+	
+	 tabcontent = document.getElementsByClassName("hide1");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].className = tabcontent[i].className+" none";
+    }
+
+    // Get all elements with class="tablinks" and remove the class "active"
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+
+    // Show the current tab, and add an "active" class to the link that opened the tab
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+
+
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+
+</script>
+
+
+
+
+<script type="text/javascript" src="bower_components/d3/d3.js"></script>
+<script type="text/javascript" src="bower_components/d3-tip/index.js"></script>
+<script type="application/javascript" src="public/js/filterChart.js"></script>
+<script type="application/javascript" src="public/js/listChart.js"></script>
+<script type="application/javascript" src="public/js/mapChart.js"></script>
+<script type="application/javascript" src="public/js/comparatorChart.js"></script>
+<script type="application/javascript" src="public/js/parallel.js"></script>
+<script type="application/javascript" src="public/js/main.js">
+
+</script>
+
+</body>
+</html>
+</div>
+
+
