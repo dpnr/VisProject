@@ -12,7 +12,7 @@
 
 ##SUBMISSION DETAILS:
 
-**Our submission is made on the GIT HUB repository whose access link is mentioned above.  **
+**Our submission is made on the GIT HUB repository whose access link is mentioned above.**  
 1. The process book in pdf format titles ProcessBook.pdf.
 
 2. A read me file titled README.txt.
