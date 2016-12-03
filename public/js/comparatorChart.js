@@ -588,7 +588,7 @@ d3.select("#lines").append("path").attr("id","line2");
 		d3.select("#par_intro").attr("transform", "translate(" + 0 + "," + 0 + ")").append("g").attr("transform", "translate(" + 0 + "," + 60 + ")").append("text")
 		.text("PARALLEL AXES").attr("class","intro_head");
 		d3.select("#par_intro").attr("transform", "translate(" + 0 + "," + 0 + ")").append("g").attr("transform", "translate(" + 0 + "," + 80 + ")").append("text")
-		.text("Available filters are not enough on shortlisting the school ?").call(wrappar).attr("class","intro_bodyq");
+		.text("Available filters are not enough on shortlisting the schools ?").call(wrappar).attr("class","intro_bodyq");
 		d3.select("#par_intro").attr("transform", "translate(" + 0 + "," + 0 + ")").append("g").attr("transform", "translate(" + 0 + "," + 150 + ")").append("text")
 		.text("Many more filters are made available with the Parallel axes below. There is a brush available at the top for every criteria that you can filter on. Extend the brush size and drag it over the range of your interest and the universities matching with your interests are shown under the recommendations.").call(wrappar).attr("class","intro_body");
 		//d3.select("")select("#left").attr("transform", "translate(" + 0 + "," + 0 + ")").append("img").attr("src","data/Logos/graddefault.png") ;
