@@ -1,17 +1,18 @@
-DATA SCIENCE - GRAD SCHOOL FINDER
+#DATA SCIENCE - GRAD SCHOOL FINDER
 
 
-PROJECT MEMBERS: Pranavnath Dommatta (u1068846)
+**PROJECT MEMBERS:** Pranavnath Dommatta (u1068846)
 				 Neha Pathapati (u1069211)
 
-PROJECT REPOSITORY URL: https://github.com/u1068846/VisProject.git
+**PROJECT REPOSITORY URL:** https://github.com/u1068846/VisProject.git
 
-PROJECT WEBSITE URL:https://u1068846.github.io/VisProject/gradSchoolFinder.html
+**PROJECT WEBSITE URL:** https://u1068846.github.io/VisProject/gradSchoolFinder.html
 
-PROJECT SCREENCAST URL: 
+**PROJECT SCREENCAST URL:** https://www.youtube.com/watch?v=mds8NimM1IE&feature=youtu.be 
 
-SUBMISSION DETAILS:
-Our submission is a ZIP file named Data Science-Grad School Finder. This folder contains the following:
+##SUBMISSION DETAILS:
+
+**Our submission is made on the GIT HUB repository whose access link is mentioned above.  **
 1. The process book in pdf format titles ProcessBook.pdf.
 
 2. A read me file titled README.txt.
