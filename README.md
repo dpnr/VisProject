@@ -13,15 +13,16 @@
 ##SUBMISSION DETAILS:
 
 **Our submission is made on the GIT HUB repository whose access link is mentioned above.**  
+
 1. The process book in pdf format titles ProcessBook.pdf.
 
-2. A read me file titled README.txt.
+2. A read me file titled README.md
 
-3. A folder named GradSchoolFinder that contains the following:
-   (a). The dataset in a folder titled "data". This folder contains:
-        (i). The csv for University data (timesMergedData.csv)
-        (ii). The csv's for climate data(state_climate1.csv, state_climate.xlsx) 
-        (iii). A folder named "Logos" containing all the logos of schools.
+3. A folder named GradSchoolFinder that contains the following:  
+   (a). The dataset in a folder titled "data". This folder contains:  
+        (i). The csv for University data (timesMergedData.csv)  
+        (ii). The csv's for climate data(state_climate1.csv, state_climate.xlsx)   
+        (iii). A folder named "Logos" containing all the logos of schools.  
 
    (b). The libraries in a folder named "bower_components". The libaries included are: bootstrap-multiselect-master, d3, d3-tip.
 
