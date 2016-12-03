@@ -29,14 +29,14 @@
    (c). A html file titled gradSchoolFinder.html.
 
    (d). All the code in a folder named "public". This folder contains the css and the js folders.  
-        The js folder contains:  
+       ####The js folder contains:  
         (i). main.js  
         (ii). filterChart.js  
         (iii). listChart.js  
         (iv). mapChart.js  
         (v). comparatorChart.js  
         (vi). parallel.js  
-        The css folder contains:  
+        #####The css folder contains:  
         (i). style.css  
         (ii). Two images for the homepage and the website background.  
 
